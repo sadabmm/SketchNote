@@ -63,7 +63,7 @@ public class OCRFragment extends Fragment {
                 OCRTextView.setText(OCRresult);
 
                 if(OCRresult.length() == 0){
-                    Toast.makeText(getContext(), "NO WORDS FOUND", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getContext(), "NO WORDS FOUND!", Toast.LENGTH_LONG).show();
                 }
             }
         });
